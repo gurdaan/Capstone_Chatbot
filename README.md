@@ -7,6 +7,7 @@ Looking forward, the project suggests potential enhancements for the chatbot, em
 
 1) We have used streamlit as our frontend
 2) We have 2 models that are working in ensemble i.e. there is a threshold set so that if the first model does not give a good enough match for the question the second model comes in and gives a better answer.
+
    a) Intent Based model: This model works like a classification model. We have an intent file with a list of FAQ questions and answers for them. These are generic questions and problems that are most faced by customers. This model will answer all questions in the intent file and similar questions to those such as but not limited to "The machine is broken what do I do", "I lost my ticket what do I do", etc.
    b) Generative Model: This is a model that answers the general questions or prompts that the user will ask such as but not limited to "Hello how are you", "Who are you", "What does the company do" etc.
 
