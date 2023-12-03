@@ -18,3 +18,10 @@ Such an architecture is very useful because of multiple reasons:
   - The second model (which is very intensive and slow to run) will fire only if the first model does not fire.
   - Saves computational resources.
   - Gives better answers for frequently asked questions.
+
+
+How to install dependencies
+# TODO
+
+How to run the project
+# TODO
